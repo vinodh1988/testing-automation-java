@@ -1,0 +1,203 @@
+
+
+ Java -- Platform nuetral
+ 
+    ???
+	
+	  
+Before JAva - 
+
+        C,C++
+		
+		          .c -->(compile) --> .obj (link) ---> .exe ---> (os windows)
+				                                 .exe (linux(
+				  .c --->(recompile ) -->.obj(link)- >.out--->(os)
+				  
+		
+   Java
+   
+                                         (JVM) JRE    - (OS Windows) -->(HW)
+										 (JVM) JRE	 - (os Ubnutu) --> (HW)
+										 (JVM) JRE	-      -(Mac) --> (HW)
+										 (JVM) JRE -   (Device (embedded os)-->
+										 
+		.java -->(compiler) --> .Class
+		                    (bytecode) ---> (JRE( JVM))
+										     (windows)
+											 
+								.Class ---> (JRE (JVM))
+                                             (ubuntu)								
+									
+				
+
+
+  JAva --- Standard Edition
+
+               JDK --(  compile, doc tools, memory tools, jre)-8
+               JRE 
+			   
+											   
+											   
+
+What kind of Language is Java ?
+
+  
+   Java is a pure object oriented programming language
+   
+   
+   
+   
+   
+   Çurrent
+   -------
+         
+		 functional Programming languages
+		                     (Javascript, python,scala....)
+							 
+							 
+		Object oriented programmming
+		
+		        
+				
+	HERO :
+	--------
+	
+	            class?
+				
+				
+		    
+			
+			public void display(){
+			
+			}//not correct
+			
+			
+			class P {
+			   public void show()
+			
+			}
+		 
+		 
+		 
+		 
+	Class 
+	-------
+	
+	  Class represents a Business Entity
+	  
+	  Business Entity:
+	           Restuarant :  Bill, Waiter, Table,Customer,
+			   Menu, MenuItem
+			   Institute : Trainer, Student, Course,Fee
+			   
+			   Transport: Bus, Driver,Passenger
+			   
+			   
+			   
+	 Entity? Properties + Activities
+	    (common name)
+		 Student (sno,name,age,address)
+		         (writeExam, fillAttendance, examResult)
+				 
+				 
+				 
+				 
+	class --> data + properties --------> (Encapsulation)
+	
+	
+Conventions
+-----------
+
+Naming Conventions
+------------------
+
+   Class/Interface Naming Conventions
+   ------------------------
+        Always start name of the class with upperCase
+		       Ex: Student
+		If Your name is combination of multiple words use Camel Case
+		       Ex: EngineeringStudent
+	    No Special Symbols allowed except _, if possible even avoid it
+		       Ex: Plan_23 (Not a good one to use underscore)
+		Numbers can be used but should not start with number
+        No Spaces
+
+     Good Class Names: Store, Student, FirstEntity
+   Method naming and Variable
+   --------------------------
+   
+        Follow the same rules as above for class
+		Except start with lower case
+		
+		Good variable/method names: display, show, firstApproach
+		                          stringTest
+		
+  Package?
+  -------- 
+            a package is a logical collection of classes and interfaces
+			
+			
+	package naming
+	--------------- 
+	
+	a package hierarchy folder that would be created
+	
+	name the package hierarchy seperated by .
+	the name should have only lower cases
+	
+	  good package names:  com.test , com.example
+	                     com.org.app
+						 
+					
+
+ Data Types
+ 
+    
+	Integer data
+	                 byte - 8 bits
+					 short - 16 bits
+					 integer  -32 bits
+					 long - 64 bits
+	           
+	
+	
+	Floating point data
+	              float -32
+				  double -64
+	
+	
+	Character data
+	              char - 2 bytes
+	       
+	
+	boolean data
+	
+	            boolean - 1 bit (true or false)
+				
+				
+				
+				For dealing with strings no data type 
+				available
+				
+				we have inbuilt class called String
+				
+				
+
+untracked state
+
+
+stage 
+        git add .
+commit 
+        git commit -m <message>
+push
+        git push  origin master
+		
+------------------------------------------------------
+
+
+
+one time activity
+
+   git init
+   git remote add origin <url>
