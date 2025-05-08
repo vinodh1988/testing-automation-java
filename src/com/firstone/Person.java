@@ -10,5 +10,5 @@ public class Person {
 	   System.out.println("Name:"+name);
 	   System.out.println("City:"+city);
 	   
-   }   //methods or instance methods
+   }   //methods or instance methods or member methods/member functions
 }
