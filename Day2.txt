@@ -1,0 +1,62 @@
+Instance
+Object
+
+     when we class , you can have as many objects as you want
+     for the class
+     
+     Object - it is an instance of a class
+     
+     Ex:
+       
+       Employee -- e101,e102,e103
+       Table -- table1, table2, table3
+       
+       To create an object , we use constructor
+       
+       constructor?
+       
+       constructor is a special method that has 
+       same name as that of the class name
+       
+       it is used to instantiate object
+       
+       when object is instantiated
+       
+       all instance members copy will be associated with object
+       
+       person--> person1(sno,name,city)
+                 person2(sno,name,city)
+                 
+         Eventhough you dont create constructor a default version
+         is always created
+         
+         if you want you can overload additional constructors
+         
+       Constructor has no return type
+       
+       
+     Common practice of oop
+     ----------------------
+     
+     
+     You should not able to manage 
+     the instance variable of an instance
+     using object refence 
+     
+     only you should able to use
+     functionalities that are
+     allowed to be used
+     
+     
+  Abstraction
+  ------------   
+     Allowing only the essential details
+     hiding the background implementation 
+     
+     
+   polymorphism
+   ------------
+   
+   one name many forms
+   
+   the form to be called will be determined automatically (compilation/execution)
