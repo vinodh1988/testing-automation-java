@@ -2,6 +2,7 @@ package com.firstone;
 
 public class Executable {
    public static void main(String[] args) {
+	 
 	 System.out.println("First Program");
 	 Person p = new Person();//default constructor will not create if you have any other form of constructor
 	 Person p1= new Person(2,"Rohan","Chennai");
@@ -16,6 +17,9 @@ public class Executable {
 	 p.display();
 	 p1.display();
 	 p2.display();
+	 
+	 System.out.println(p1.getName());
+	 System.out.println(Person.getCount());
 	
 	 // p is reference variable;
 	 //new Person() -- object creation

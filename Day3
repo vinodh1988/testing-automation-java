@@ -1,0 +1,84 @@
+Any Language can claim itself to be an Object oriented programming language
+if and only if it supports
+
+  * Encapsulation  - Properties + Functions(methods)  - class
+  * Data abstraction/hiding
+         -- allowing only the essentials to be accessed 
+         hiding the implementation complexities
+         
+         Access specifiers
+                   -- private
+                   -- public
+                   -- protected
+                   -- default
+  * Polymorphism
+         One name taking many forms
+         
+          1. Constructor overloading
+          2. Method overloading
+          3. Method overriding
+          4. Operator overloading(developer cannot do)
+               ex: + act as arithmetic if used with numbers
+                     act as concatination operator if used with strings 
+  * Inheritance
+
+  -------------------------------------------------
+  
+  * How to create class
+  * How to create object
+  * what is Constructor
+  * What is default constructor
+  * How to overload constructors
+  * What are the types of variables
+            * Instance variables
+            * Local variables 
+            * Static variables
+            
+   * Instance Members/variables
+            variables that are associated with instance, a separate
+            copy created for each instance, generally stored
+            in heap space
+    * Local Variables
+            variables that are under the scope of a methods, will be
+            alive as long the method is alive, temporarily stored in stack space
+            
+    * Static Variables
+             Varibales that are shared by all the objects
+             stored in stack space 
+            could be accessed with class name itself and also by using objects
+           
+ Comments
+ ---------------
+ 
+     Multiline comment
+        /*    */
+        
+     Single line comment
+     
+     // comment
+     
+     Documentation comment
+     
+   Comments are meant understanding of users and developers
+   
+   runtime, compiler has got nothing to do with comments they simply ignore it
+   
+   
+   Annotations
+   --------------
+   
+   Annotation is a meta code (code about code)
+   
+   annotations are also generally not meant for execution
+   but
+   
+   1. users and developers
+   2. compiler
+   3. runtime
+   
+   all of these understands something because of annotations
+   
+            
+            
+            
+            

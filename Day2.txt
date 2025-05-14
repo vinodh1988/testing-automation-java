@@ -60,3 +60,24 @@ Object
    one name many forms
    
    the form to be called will be determined automatically (compilation/execution)
+   
+   
+   Variables
+   ---------  
+        1. Local Variables
+        2. Instance variables
+        3. Class variables (static)
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
