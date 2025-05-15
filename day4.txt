@@ -1,0 +1,40 @@
+
+int[] numbers = new int[5]; //here creating an array of size 5
+
+int[] numbers = {1, 2, 3, 4, 5}; //here creating an array and initializing it
+
+datatypes
+----------
+  short -0
+  byte - 0
+  int - 0
+  long - 0
+  
+  float - 0
+  double - 0
+  
+  char -  \u0000
+  
+  boolean - false
+  
+  ------------------------------------
+  
+  Class types
+  ------------
+  In java representing primitie types we have equivalent class types
+  those are called wrapper classes
+  
+  byte - Byte
+  short - Short
+  int - Integer
+  long - Long
+  float - Float
+  double - Double
+  char - Character
+  boolean - Boolean
+  String - String
+  
+  for wrapper classes the default value is null
+  
+  int i; //default value is 0
+  Integer i; //default value is null
