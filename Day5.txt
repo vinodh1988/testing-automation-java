@@ -1,0 +1,14 @@
+Inheritance is one of the core concepts of OOP
+//    Inheritance is a mechanism in which one class acquires the properties of another class
+
+ -- If we create a child object, it will have all the properties of parent object
+
+ -- but if we create a parent object, it will not have the properties of child object
+ 
+ if we create a child object using constructor of the child,
+ it will call the constructor of the parent class (default constructor)
+ 
+ if you want to call the constructor of parent class explicitly
+ you can use super() keyword
+ 
+ 
