@@ -22,4 +22,6 @@ public class Child extends Parent{
 	  System.out.println("Child show");
 	  System.out.println("Asset: " + assetc);
   }
+  
+
 }
