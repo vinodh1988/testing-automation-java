@@ -1,0 +1,98 @@
+Abstract -------> Inheritance
+
+
+Generalization
+
+common properties + common feature ---------> Generalized class
+
+        Shape, Employee, Vehicle
+Specific properties + specific features ---> Specialized class
+
+        Rectangle, Programmer,  Car
+        
+   ----------------------------------------------------------------
+   
+
+A--> B ===>single inheritance
+A-->B -->C --> Multi level inheritance
+A--> (B,C,D) --> Hierarchial inheritance
+
+ // A -d1(),B - d1(),C --> D --> Multiple Inheritance
+ 
+ ---------------------------------------------------------
+   x,y,z ---> common function but not common properties
+        may be conceptually they are not even similary
+        
+        
+        Car, Bus, Van, Truck --> conceptuall similar
+                 common version --> class --> Vehicle
+        Manager,Programmer, Clerk, Accountant ---> conceptual similar
+                 common version --> class --> Employee
+        
+        Print, Code , Document, Record ---> Conceptually different
+          task(),task(),task(),task()
+          
+        Car, Bus,Van,Truck, PowerGenerator, Machine
+       fillfuel(), fillfuel..........fillfuel, fillfuel
+       
+       One Reference ----> Car, Bus, Van,Truck, PowerGenerator, Machine
+       one Reference ---> print, code,Document, Record
+       
+       
+       interface Activity {
+        
+          public void task(); //default abstract
+       }
+       
+       class Print implements Activity  {
+       
+          public void task() {
+            //definition
+          }
+          
+          public void fillInk(){
+          
+          }
+       }
+       
+       class Code implements Activity {
+         public void task() {
+         
+         }
+         
+         public void setupEnvironment(){
+         
+         }
+       
+       }
+       
+       class Document implements Activity {
+           public void task() {
+         
+            }
+         
+            public void formatting(){
+            
+            }
+       }
+       // Interfaces cannot have objects
+       // Interfaces can have references
+       // Interface reference can hold the object of the class which is implementing it.
+       
+       class DoTasks {
+         main() {
+            Activity a;
+            a=new Code();
+            a.task();
+            a=new Document();
+            a.task();
+            a=new Print();
+            a.task();
+            
+            
+         
+         
+         }
+       
+       
+       }

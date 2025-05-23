@@ -8,6 +8,7 @@ public class InheritHub {
 	child.display(); //parent class method
 	child.childDisplay();
 	child.show(); //overridden method
+	              //child copy called parent copy is over shadowed.
 	 //accessing parent class variable
   }
 }

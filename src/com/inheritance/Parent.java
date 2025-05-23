@@ -1,6 +1,6 @@
 package com.inheritance;
 
-public class Parent {
+public  class Parent {
    
    protected int asset;
    

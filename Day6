@@ -1,0 +1,144 @@
+TestNG Test Cases
+
+Java
+----
+
+         Conventions :
+		 
+		        com.readable -----------> (always small case)
+				
+				Class Name :
+				            
+							 student ------> Not error at all
+							                Syntactically 100% correct
+											
+							Student :  Convention
+							                     
+												 
+				FirstClass
+				
+				first_class--- syntactically 100 % Correct
+				
+				FirstClass
+				
+				Package
+				Classes and interfaces
+				methods and variables
+				
+		 Datatypes 
+		 
+		 Wrapper Classes
+		 
+		 autoboxing
+		 autounboxing
+		 
+		 == and equals
+		 Encapsulation
+		 
+		 Abstraction
+		 
+		            private
+					protected
+					public 
+					default
+					
+		instance variable
+		class variable
+		local variable
+		
+		static
+		 
+		hashcode
+		heapspace
+		stack space
+		
+		constructor
+		 
+		polymorphism
+
+                 overloading methods
+                 overloading constructors
+
+				 
+		inheritance
+                        what is inheritance
+                        how inheritance works	
+                        how parent class constructor is called
+                        
+                        what is super keyword
+                        what is overriding
+                        
+      -------------------------------------------------------
+      
+      Settung up TesNg Environment
+      Writing unit test cases and running them
+      
+      
+      
+  Day 6:
+  ------
+  keywords
+  ---------
+      class, public, private, protected, default (switch), static,
+      int, float, double, char, byte, short, long,boolean
+      void ,import,package,new,super, this, extends
+      
+  final keyword
+  --------------
+        Class: it cannot be inherited
+        Method: it cannot be overridden
+        Variable: it cannot be changed (constant)
+        
+        
+ 
+access specifiers
+        
+		public  - (class,variable (not a local variable), method)
+		private  (variable,method) --(you can use private before a class if it is inner class)
+		protected - variable, method ) -- you can use protected before a inner class only 
+		
+		
+	
+	
+	class A {
+	
+	    private class B {
+		
+		}
+	
+	}
+	
+	
+static
+-------
+
+   can be used before a variable (not a local variable)
+   can be used before a method
+   
+   can we use it before a class ? (no but not really)
+         if a class is inner class it could be static 
+
+class A {
+     private static class B {
+	 
+	 }
+}		 
+   
+final
+------
+     variable (local variable also ok)
+	 method
+	 class
+	 
+abstract
+--------
+        class - it cannot be instantiated
+        method - it has to be implemented in child class (no definition in parent class)
+        
+ Note: A class can be abstract even if all the methods are concrete
+    But a class cannot be concrete if it has an abstract method
+        
+        
+        
+        
+  
